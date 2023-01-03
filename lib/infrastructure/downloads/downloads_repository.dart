@@ -1,9 +1,13 @@
 import 'package:dio/dio.dart';
+import 'package:injectable/injectable.dart';
 import 'package:netflix/domain/core/api_end_points.dart';
 import 'package:netflix/domain/downloads/failures/main_failure.dart';
 import 'package:dartz/dartz.dart';
 import 'package:netflix/domain/downloads/i_downloads_repo.dart';
 import 'package:netflix/domain/downloads/models/downloads.dart';
+
+
+@LazySingleton(as: IDownloadsRepo)
 
 class DownloadsRepository implements IDownloadsRepo {
   @override

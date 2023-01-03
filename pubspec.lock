@@ -332,7 +332,7 @@ packages:
     source: hosted
     version: "1.5.4"
   injectable_generator:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: injectable_generator
       url: "https://pub.dartlang.org"
