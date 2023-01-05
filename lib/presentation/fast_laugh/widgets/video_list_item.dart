@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:netflix/core/colors/colors.dart';
+import 'package:netflix/core/colors/constants.dart';
 import 'package:netflix/presentation/search/widget/search_idle.dart';
 
 class VideoListItems extends StatelessWidget {
@@ -46,7 +47,7 @@ class VideoListItems extends StatelessWidget {
                   children: const [
                     CircleAvatar(
                       radius: 30,
-                      backgroundImage: NetworkImage(imageUrl),
+                      backgroundImage: NetworkImage(kMainImage),
                     ),
                     VideoActionsWidget(icon: Icons.emoji_emotions, title: 'LOL'),
                     VideoActionsWidget(icon: Icons.add, title: "My List"),

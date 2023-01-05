@@ -11,6 +11,7 @@ TextStyle kHomeTitleText = const TextStyle(
   fontSize: 14,
   fontWeight: FontWeight.bold,
 );
+const imageAppendUrl = 'https://image.tmdb.org/t/p/w500';
 final BorderRadius kRadius30 = BorderRadius.circular(30);
 
 const newAndHotImage1 =
